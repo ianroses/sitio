@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/navbars/">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.2.0-beta1-dist/css/bootstrap.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Osania</title>
+  </head>
+  
+  <body>  
+
+    
+    
+
+    <!-- SECTION1 -->
+
+    <div class="section-1">
+        <!-- CARROUSEL -->
+        
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+               <img src="resources/imagenes/lavadora-industrial-servicios-limpieza-tunel-lavado-tarimas-dunnage-1-osania.jpg" class="d-block w-100" alt="...">
+              <img src="resources/png/pleca-texto-carrusel-osania-cleaning-systems.png" class="gradient-background"> 
+              <img src="resources/png/linea-naranja-carrusel-osania-cleaning-systems.png" class="orange-background">
+              <h3 class="top-caption ">FABRICAMOS SISTEMAS DE LAVADO AUTOMATIZADO<br> Y LIMPIEZA INDUSTRIAL  </h3>
+              <p class="bottom-caption">Somos especialistas en sistemas de lavado acuoso, implementamos<br> tecnologías de vanguardia lo que garantiza la efectividad de nuestros<br> equipos.
+              </p>         
+            </div>
+            <div class="carousel-item">
+              <img src="resources/imagenes/carwash-lavado-autobuses-monocepillo-mantenimiento-2-osania.jpg" class="d-block w-100" alt="...">
+              <img src="resources/png/pleca-texto-carrusel-osania-cleaning-systems.png" class="gradient-background">
+              <img src="resources/png/linea-naranja-carrusel-osania-cleaning-systems.png" class="orange-background">
+              <h3 class="top-caption ">Creamos soluciones de ingeniería <br> en lavado y limpieza  </h3>
+              <p class="bottom-caption">Somos especialistas en sistemas de lavado acuoso, implementamos<br> tecnologías de vanguardia lo que garantiza la efectividad de nuestros<br> equipos.
+              </p>        
+            </div>
+            <div class="carousel-item">
+              <img src="resources/imagenes/lavadora-industriales-tarimas-cajas-asistencia-procesos-agua-3-osania.jpg" class="d-block w-100" alt="...">
+              <img src="resources/png/pleca-texto-carrusel-osania-cleaning-systems.png" class="gradient-background">
+              <img src="resources/png/linea-naranja-carrusel-osania-cleaning-systems.png" class="orange-background">
+              <h3 class="top-caption">La implementación óptima de nuestros<br> sistema nos distingue </h3>
+              <p class="bottom-caption">Ponemos atención absoluta en cada uno de los sistemas<br>que diseñamos, atendiendo cada etapa, teniendo un cuidado<br>especial en el servicio, mantenimiento y actualización<br>de nuestros sistemas.
+              </p>        
+            </div>
+            <div class="carousel-item">
+              <img src="resources/imagenes/lavadora-tarimas-ahorro-piezas-retornables-tunel-industria-4-osania.jpg" class="d-block w-100" alt="...">
+              <img src="resources/png/pleca-texto-carrusel-osania-cleaning-systems.png" class="gradient-background">
+              <img src="resources/png/linea-naranja-carrusel-osania-cleaning-systems.png" class="orange-background">
+              <h3 class="top-caption ">Estamos comprometidos con<br>el cuidado del agua</h3>
+              <p class="bottom-caption">Tenemos la responsabilidad de colaborar con el mundo<br>en que vivimos, por esto desarrollamos nuestros sistemas,<br> aplicando tecnologías ecológicas y que garantizan el uso<br>eficiente del agua.
+              </p>        
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>  
+      </div>
+      <!-- NAVBAR -->
+      <div class="override-navbar">
+        <div class="osania-white-logo-container">
+          <img
+            class="img-fluid"
+            src="resources/png/logotipo-blanco-osania-cleaning-systems.png"
+          />
+        </div>
+        
+        <div class="search-bar-container ">
+          <form>
+            <input
+              class="form-control me-2 rounded-pill"
+              type="Buscar"
+              placeholder="Buscar"
+            />
+              </button>
+            </span>
+          </form>
+        </div>
+
+        <div class="navbar-container">
+          <nav class="navbar navbar-dark" >             
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"  aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>            
+          </nav>
+        </div>
+      </div>
+
+    <!-- SECTION2 -->
+    
+    <div class="section-2">
+      <img src="resources/png/linea-naranja-carrusel-osania-cleaning-systems.png" class="orange-bar-sec2">
+      <img src="resources/png/section2/marca-agua-osania-cleaning-systems.png" class="water-mark-sec2">
+      <div class="radio-image-container">
+        <img src="resources/imagenes/section2/aeroespacial-equipo-lavado-carwash-asistencia-pesado-industrial-osania.jpg" class="radio-image">
+
+      </div>
+      
+      <img src="resources/png/section2/pleca-naranja-horizontal-osania-cleaning-systems.png" class="hor-orange-bar-sec2">
+
+        <div class="section-2-title">          
+          <h1 class="section-2-title-small"> TRABAJAMOS</h1>
+          <h1 class="section-2-title-large">EN EQUIPO</h1>
+        </div>
+        <div class="section-2-paragraph">
+            <p>Nuestra capacidad nos permite crear soluciones<br class="larger-break"> de ingeniería en sistemas de lavado automatizado<br class="larger-break">y limpieza industrial, que tiene aplicación en<br> diferentes sectores productivos del país.</p>
+        </div>
+        <div class="section-2-radio ">
+            <div class="btn-group-vertical" role="group">
+              <button id="btnGroup-Transporte" type="button" class=" rad-buttons" >
+                TRANSPORTE
+              </button>
+              <button id="btnGroup1-alimentos" type="button" class=" rad-buttons" >
+                ALIMENTOS
+              </button>
+              <button id="btnGroup1-agropecuaria" type="button" class=" rad-buttons" >
+                AGROPECUARIA
+              </button>
+              <button id="btnGroup1-aeroespacial" type="button" class=" rad-buttons" >
+                AEROESPACIAL
+              </button>
+              <button id="btnGroup1-automotriz" type="button" class=" rad-buttons" >
+                AUTOMOTRIZ
+              </button>
+              <button id="btnGroup1-electrica" type="button" class=" rad-buttons" >
+                ELÉCTRICA
+              </button>
+              <button id="btnGroup1-electronica" type="button" class=" rad-buttons" >
+                ELECTRÓNICA
+              </button>
+              <button id="btnGroup1-farmaceutica" type="button" class=" rad-buttons" >
+                FARMACÉUTICA
+              </button>
+              <button id="btnGroup1-logistica" type="button" class=" rad-buttons" >
+                LOGÍSTICA
+              </button> 
+            </div>
+        </div>
+        <div class="footer-title-sec-2">
+          <h1>SOLUCIONES <span class="blue-text-sec2"> APLICADAS EN:</span></h1>          
+        </div>
+
+        
+    </div>
+
+    <!--Section 3-->             
+     <!-- CARROUSEL -->
+
+     <div class="section-3">
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="sect-3-carousel-imgs">
+
+              <!-- block 1 -->
+              <div class="d-block w-20 texto-vehiculos-ligeros">
+                <h3 class="header-vehiculos-ligeros">VEHÍCULOS <br>LIGEROS</h3>
+                <h3 class="description1-vehiculos-ligeros">BAJA INVERSIÓN</h3>
+                <div class="white-bar-sec-3">
+                  <img src="resources/png/section3/linea-blanca-osania-cleaning-systems.png">
+                </div>
+                <h3 class="description2-vehiculos-ligeros">OPERACIÓN MANUAL</h3>
+                <h3 class="description3-vehiculos-ligeros">TÚNEL ALTA CAPACIDAD</h3>
+              </div>
+
+              <!-- block 2 -->
+              <div class="d-block w-20 vehiculos-pesados">
+                <h3 class="header-vehiculos-ligeros">VEHÍCULOS <br>PESADOS</h3>
+                <h3 class="description1-vehiculos-ligeros">AUTOBUSES</h3>
+                <div class="white-bar-sec-3">
+                  <img src="resources/png/section3/linea-blanca-osania-cleaning-systems.png">
+                </div>
+                <h3 class="description2-vehiculos-ligeros">CAMIONES/INDUSTRIA</h3>
+                <h3 class="description3-vehiculos-ligeros">OPERACÓN MANUAL</h3>
+              </div>
+
+
+
+              <!-- block 3-->
+              <div class="d-block w-20 industria-retornables">
+                <h3 class="header-vehiculos-ligeros">INDUSTRIA   <br>RETORNABLES</h3>
+                <div class="white-bar-sec-3">
+                  <img src="resources/png/section3/linea-blanca-osania-cleaning-systems.png">
+                </div>
+                <h3 class="description1-vehiculos-ligeros">TABLAS</h3> 
+                <h3 class="description2-vehiculos-ligeros">TARIMAS Y DUNNAGE</h3>
+                <h3 class="description3-vehiculos-ligeros">CAJAS Y CHAROLAS</h3>
+                <h3 class="description4-vehiculos-ligeros">AGRICOLA Y AVICOLA</h3>
+              </div>
+              
+
+
+              <!-- block 4 -->
+              <div class="d-block w-20 industria-piezas-partes">
+                <h3 class="header-vehiculos-ligeros">INDUSTRIA <br>PIEZAS Y PARTES</h3>
+                <div class="white-bar-sec-3">
+                  <img src="resources/png/section3/linea-blanca-osania-cleaning-systems.png">
+                </div>
+                <h3 class="description1-vehiculos-ligeros">CONVEYOR TIPO TUNEL</h3>
+                <h3 class="description2-vehiculos-ligeros">TORNAMESA</h3>
+              </div>
+
+
+                <!-- block 5-->
+               <div class="d-block w-20 servicio-asesoria">
+                  <h3 class="header-vehiculos-ligeros">SERVICIO   <br>Y ASESORÍA</h3>
+                  <div class="white-bar-sec-3">
+                    <img src="resources/png/section3/linea-blanca-osania-cleaning-systems.png">
+                  </div>
+                  <h3 class="description1-vehiculos-ligeros">MANTENIMIENTO, RECONSTRUCCIÓN Y ACTUALIZACIÓN</h3>
+                  <h3 class="description2-vehiculos-ligeros">DISEÑO Y FABRICACIÓN DE SISTEMAS Y EQUIPOS</h3>
+                  <h3 class="description3-vehiculos-ligeros">ASESORÍA TÉCNICA ESPECIALIZADA, AUDITORÍA Y RETROALIMENTACIÓN</h3>
+                  <h3 class="description4-vehiculos-ligeros">RENTA DE MAQUINARIA
+                  </h3>                  
+                  <img src="resources/imagenes/section 3/servicio-ahorro-inversion-agua-innovacion-sustentabilidad-responsabilidad.jpg" alt="...">
+                </div> 
+              
+            </div>       
+          </div>  
+        </div>
+      </div>
+     </div>
+
+     <!--Section 4-->
+     
+    <div class="section-4">
+      <div class="sec-4-header">
+        <h1 >¿Por qué elegir <span class="darker-text-sec-4">Osania?</span></h1>
+      </div>
+      <img src="resources/png/section2/pleca-naranja-horizontal-osania-cleaning-systems.png" class="hor-orange-bar-sec4">
+      <img src="resources/png/section 4/valores-1-eficiencia-osania-cleaning-systems.png" class="sec-4-bullet-img">
+      <div class="sec-4-image-container">
+        <img src="resources/imagenes/section 4/eficiencia-servicio-cliente-asesoria-mantenimiento-osania.jpg" class="radio-image">
+      </div>
+      <div class="section-4-radio">
+        <div class="btn-group" role="group">
+          <button id="btnGroup-eficiencia" type="button" class=" rad-buttons" >
+            EFICIENCIA
+          </button>
+          <button id="btnGroup1-adaptabilidad" type="button" class=" rad-buttons" >
+            ADAPTABILIDAD
+          </button>
+          <button id="btnGroup1-innovación" type="button" class=" rad-buttons" >
+            INNOVACIÓN
+          </button>
+          <button id="btnGroup1-responsabilidad" type="button" class=" rad-buttons" >
+            RESPONSABILIDAD
+          </button>
+          <button id="btnGroup1-sustentabilidad" type="button" class=" rad-buttons" >
+            SUSTENTABILIDAD
+          </button>
+        </div>
+      </div>
+      
+      <div class="image-header-sec-4-container">
+        <h2 class="image-header-sec-4">EFICIENCIA</h2>
+        <p class="image-text-sec-4">Trabajamos para crear sistemas que solucionen<br> totalmente las necesidades de nuestros clientes,<br> optimizando su inversión y potenciando sus beneficios.
+        </p>
+      </div>
+    </div>
+
+    <!--Section 5                        --------------------------------------------------------->
+
+
+
+
+    <div class="section-5">
+      <h1 class="sec-5-header">NUESTROS<br>PROYECTOS</h1>
+
+      <div class="sec-5-carrousel-container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="sect-5-carousel-imgs">
+
+              <!-- block 1 -->
+              <div class="d-block">
+                <img class="sec-5-image" src="resources/imagenes/section 5/eb-clientes-servicio-asesoria-mantenimiento-experiencia-profesionalismo-osania.jpg "  alt="...">
+              </div>
+
+              <!-- block 2 -->
+              <div class="d-block ">
+                <img class="sec-5-image" src="resources/imagenes/section 5/monsanto-limpieza-servicio-asistencia-innovacion-optimizacion-osania.jpg"  alt="...">
+              </div>
+              <!-- block 3 -->
+              <div class="d-block">
+                <img class="sec-5-image" src="resources/imagenes/section 5/valeo-mantenimiento-procesos-servicio-industria-procesos-lealtad-osania.jpg"  alt="...">
+              </div>
+
+              <!-- block 4 -->
+              <div class="d-block">
+                <img class="sec-5-image" src="resources/imagenes/section 5/p_g-lavado-industria-servicios-asistencia-tecnica-ahorro-agua-osania.jpg"  alt="...">
+              </div>               
+
+            </div>       
+          </div>
+        </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>  
+    </div>
+        <!--Section 6 Creamos innovacion-->
+    <div class=" section-6" >
+ 
+        <img src="resources/png/section6/marca-agua-contenido-osania-cleaning-systems.png" class="watermark-sec6"> 
+        <img src="resources/png/linea-naranja-carrusel-osania-cleaning-systems.png" class="orange-bar-sec6">      
+
+        <div class="section-6-title">          
+          <h1 class="sec6-text-tite">CREAMOS<br>INNOVAMOS<br>SOLUCIONAMOS</h1>
+        </div>
+        <div class="section-6-paragraph">Nos mantenemos en un proceso<br>de mejora continua, atendiendo<br>las necesidades de nuestros
+          <br>las necesidades de nuestros<br>innovadores, eficientes y rentables.
+        </div>
+        <div class="section-6-squares">
+          <div class="container">
+            <div class="row row-cols-2">
+              <div class="col"><button type="button" class="square-sec6 btn btn-primary">Nos mantenemos en un proceso<br>de mejora continua, atendiendo<br>las necesidades de nuestros
+                <br>las necesidades de nuestros<br>innovadores, eficientes y rentables.</button></div>
+              <div class="col"><button type="button" class="square-sec6 btn btn-primary">Nos mantenemos en un proceso<br>de mejora continua, atendiendo<br>las necesidades de nuestros
+                <br>las necesidades de nuestros<br>innovadores, eficientes y rentables.</button></div>
+              <div class="col"><button type="button" class="square-sec6 btn btn-primary">Nos mantenemos en un proceso<br>de mejora continua, atendiendo<br>las necesidades de nuestros
+                <br>las necesidades de nuestros<br>innovadores, eficientes y rentables.</button></div>
+              <div class="col"><button type="button" class="square-sec6 btn btn-primary">Nos mantenemos en un proceso<br>de mejora continua, atendiendo<br>las necesidades de nuestros
+                <br>las necesidades de nuestros<br>innovadores, eficientes y rentables.</button></div>
+            </div>
+          </div>          
+        </div>
+    </div>
+
+    
+
+     <!--Form-->
+     <div class="sec-7">
+       
+        <img src="resources/png/section2/marca-agua-osania-cleaning-systems.png" class="align-bottom water-mark-form"/>
+       
+      
+      <section id="contact">
+        <div class="container-lg">
+          <div class="text-center">
+            <p class="mainTittle-form">Tienes un proyecto en mente, nosotros te ayudamos</p>
+          </div>
+          <div class="row justify-content-center ">
+            <div class="col-lg-9 form-fields">
+              <form class="form-typo">  
+                <div class="mb-4 mt-5 form-floating">
+                  <textarea class="entries-form form-control" id="query" placeholder="Nombre:"></textarea>
+                  <label for="white-text-form query">Nombre:</label>
+                </div>
+                
+                <div class="mb-4 mt-5 form-floating">
+                  <textarea class="entries-form form-control" id="query" placeholder="Empresa:"></textarea>
+                  <label for="white-text-form query">Empresa:</label>
+                </div>
+  
+                <div class="mb-4 mt-5 form-floating">
+                  <textarea class="entries-form form-control" id="query" placeholder="Mail:"></textarea>
+                  <label for="white-text-form query">Mail:</label>
+                </div>
+                
+                <div class="mb-4 mt-5 form-floating">
+                  <textarea class="entries-form form-control" id="query" style="height: 140px" placeholder="query"></textarea>
+                  <label for="white-text-form query">Breve descripción del proyecto</label>
+                </div>
+                <div class="mb-4 text-center form-button">
+                  <button class="btn btn-primary" type="submit">Volver arriba</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+       </div>
+      </section>
+      </div>
+       <!-- FOOTER -->
+     <footer class="bg-dark text-center">
+       <!-- Grid container -->
+       <div class="container p-4">
+         <!--Grid row-->
+         <div class="row">
+           <!--Grid column-->
+           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+             <h5 class="text-uppercase">Servicios </h5>
+     
+             <ul class="list-unstyled mb-0">
+               <li>
+                 <a href="#!" class="text-light">Vehículos</a>
+               </li>
+               <li>
+                 <a href="#!" class="text-light">Industria</a>
+               </li>
+             </ul>
+           </div>
+           <!--Grid column-->
+     
+           <!--Grid column-->
+           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+             <h5 class="text-uppercase">Osania</h5>
+     
+             <ul class="list-unstyled mb-0">
+               <li>
+                 <a href="#!" class="text-light">Nosotros</a>
+               </li>
+               <li>
+                 <a href="#!" class="text-light">Clientes</a>
+               </li>
+               <li>
+                 <a href="#!" class="text-light">Contacto</a>
+               </li>
+             </ul>
+           </div>
+           <!--Grid column-->
+     
+           <!--Grid column-->
+           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+             <h5 class="text-uppercase"></h5>
+     
+             <ul class="list-unstyled mb-0">
+               <li>
+                 <a href="#!" class="text-light"></a>
+               </li>
+             </ul>
+           </div>
+           <!--Grid column-->
+     
+           <!--Grid column-->
+           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+             <h5 class="text-uppercase">Contáctanos </h5>
+     
+             <ul class="list-unstyled mb-0">
+               <li>
+                 <a href="#!" class="text-light">(442) 183 4633 ; (442) 252 3364</a>
+               </li>
+               <li>
+                 <a href="#!" class="text-light">WhatsApp. 442 183 4633</a>
+               </li>
+               <li>
+                 <a href="#!" class="text-light">info@osania.com</a>
+               </li>
+             </ul>
+           </div>
+           <!--Grid column-->
+         </div>
+         <!--Grid row-->
+       </div>
+       <!-- Grid container -->
+     
+       <!-- Copyright -->
+       <div class="bottom-text p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          <p class="footer-text">© Osania Todos los derechos reservados.</p>
+          <a  href="#"><img class="bottom-logo" src="resources/png/logotipo-blanco-osania-cleaning-systems.png"/></a>
+       </div>
+       <!-- Copyright -->
+     </footer>
+    </body>
+  <script src="bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.1.0/bootstrap.min.js"></script>
+</html>
